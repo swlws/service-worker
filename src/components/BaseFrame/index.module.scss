@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+
+  > aside {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    cursor: pointer;
+  }
+
+  > main {
+    height: 100%;
+    padding: 0px;
+    background-color: #212121;
+  }
+}
